@@ -70,15 +70,13 @@ ul li {
 .handle-icon {
   display: flex;
   justify-content: center;
-  /* padding-bottom: 20px;
-  padding-top: 20px; */
 }
 
 .svg {
   margin: 8px;
 }
 
-.action{
+.action {
   display: flex;
   justify-content: center;
   margin-top: 64px;
@@ -87,57 +85,54 @@ ul li {
 
 /* second section */
 
-.recent-work header{
+.recent-work header {
   display: grid;
   justify-content: center;
 }
 
-.recent-work h2{
+.recent-work h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
   margin-left: 26px;
   margin-right: 22px;
   margin-top: 12px;
 }
 
-.indicator{
+.indicator {
   display: flex;
   justify-content: center;
   margin-top: 24px;
   margin-bottom: 62px;
 }
 
-.cards{
-  background: #EBF0EE;
-  border: 1px solid #D0D9D4;
+.cards {
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin-left: 26px;
   margin-right: 22px;
   margin-top: 62px;
 }
 
-.card-details{
+.card-details {
   margin-top: 252px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
-  left: calc(50% - 327px/2)
 }
 
-.card-details h3{
+.card-details h3 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #3A4A42;
+  color: #3a4a42;
   padding-top: 16px;
 }
-
-
 
 .card-tag {
   display: flex;
@@ -146,52 +141,48 @@ ul li {
   margin-bottom: 29px;
 }
 
-.tags{
-  
+.tags {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3A4A42;
-  background: #EBF0EE;
+  color: #3a4a42;
+  background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
-
-  
 }
 
-.card-tag .ruby{
+.card-tag .ruby {
   margin-left: 6px;
   margin-right: 4px;
 }
 
-.card-tag .css{
+.card-tag .css {
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.card-tag .jav{
+.card-tag .jav {
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.card-tag .htm{
+.card-tag .htm {
   margin-left: 4px;
   margin-right: 6px;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
-  
 }
 
-.button{
-  background: #36B37F;
+.button {
+  background: #36b37f;
   border-radius: 4px;
   width: 122px;
   height: 48px;
-  color: #ffffff;
+  color: #fff;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -200,49 +191,44 @@ ul li {
   margin-bottom: 29px;
 }
 
-.about-me{
+.about-me {
   margin-top: 58px;
 }
-
-/* .about-img{
-  float: right;
-  bottom: 80px;
-} */
 
 .about-me h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.about-text{
+.about-text {
   display: block;
   position: relative;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #42526E;
+  color: #42526e;
   text-align: center;
   margin: 24px 12px;
 }
 
-.btns{
+.btns {
   width: 159px;
   height: 48px;
-
 }
 
-.about-img{
+.about-img {
   position: relative;
   float: right;
   margin: -20px;
-  top: -70px
+  top: -70px;
 }
-.about-imgs{
+
+.about-imgs {
   position: relative;
   float: left;
   margin: -10px;
-  top: -70px
+  top: -70px;
 }

@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My personnal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "try"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehma90/my-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehma90/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/ehma90/my-portfolio#readme"
+}
