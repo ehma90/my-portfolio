@@ -14,6 +14,8 @@ nav {
   align-items: center;
 }
 
+/* first section */
+
 .wlc {
   font-weight: 600;
   font-size: 20px;
@@ -29,7 +31,7 @@ nav {
 }
 
 .hero {
-  background-image: url(header-illsutration-mobile.svg);
+  background-image: url(images/header-illsutration-mobile.svg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -61,13 +63,186 @@ nav {
   margin: 28px 24px;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .handle-icon {
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  /* padding-bottom: 20px;
+  padding-top: 20px; */
 }
 
 .svg {
   margin: 8px;
+}
+
+.action{
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 22px;
+}
+
+/* second section */
+
+.recent-work header{
+  display: grid;
+  justify-content: center;
+}
+
+.recent-work h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  text-align: center;
+  margin-left: 26px;
+  margin-right: 22px;
+  margin-top: 12px;
+}
+
+.indicator{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 62px;
+}
+
+.cards{
+  background: #EBF0EE;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  margin-left: 26px;
+  margin-right: 22px;
+  margin-top: 62px;
+}
+
+.card-details{
+  margin-top: 252px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  left: calc(50% - 327px/2)
+}
+
+.card-details h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #3A4A42;
+  padding-top: 16px;
+}
+
+
+
+.card-tag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-bottom: 29px;
+}
+
+.tags{
+  
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3A4A42;
+  background: #EBF0EE;
+  border-radius: 4px;
+  padding: 8px 12px;
+
+  
+}
+
+.card-tag .ruby{
+  margin-left: 6px;
+  margin-right: 4px;
+}
+
+.card-tag .css{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.card-tag .jav{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.card-tag .htm{
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button{
+  background: #36B37F;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin-bottom: 29px;
+}
+
+.about-me{
+  margin-top: 58px;
+}
+
+/* .about-img{
+  float: right;
+  bottom: 80px;
+} */
+
+.about-me h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.about-text{
+  display: block;
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526E;
+  text-align: center;
+  margin: 24px 12px;
+}
+
+.btns{
+  width: 159px;
+  height: 48px;
+
+}
+
+.about-img{
+  position: relative;
+  float: right;
+  margin: -20px;
+  top: -70px
+}
+.about-imgs{
+  position: relative;
+  float: left;
+  margin: -10px;
+  top: -70px
 }
