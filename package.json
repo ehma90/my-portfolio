@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ehma90/my-portfolio/issues"
   },
-  "homepage": "https://github.com/ehma90/my-portfolio#readme"
+  "homepage": "https://github.com/ehma90/my-portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.0.1"
+  }
 }
