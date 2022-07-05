@@ -146,6 +146,7 @@
   background: #fff;
   margin-left: 24px;
   margin-right: 24px;
+  padding: 12px;
   height: 48px;
   width: 327px;
 }
@@ -163,6 +164,7 @@ form ul li {
   height: 48px;
   width: 327px;
   margin: 24px;
+  padding: 12px;
 }
 
 .textarea {
@@ -174,6 +176,7 @@ form ul li {
   margin-bottom: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  padding: 12px;
 }
 
 .gmail {
