@@ -150,6 +150,11 @@
   width: 327px;
 }
 
+form ul li {
+  display: flex;
+  align-items: center;
+}
+
 .email {
   box-sizing: border-box;
   background: #fff;
@@ -190,9 +195,7 @@
 }
 
 .form-btn {
-  display: flex;
-  justify-content: center;
-  margin-right: 75px;
+  margin-left: 8.5rem;
 }
 
 .set-icons {
