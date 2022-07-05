@@ -126,3 +126,81 @@
   margin-top: -50px;
   margin-bottom: 24px;
 }
+
+/* Form section */
+
+.get-in-touch {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 59px 24px;
+}
+
+.full-name {
+  box-sizing: border-box;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 12px;
+  height: 48px;
+  width: 327px;
+}
+
+form ul li {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  height: 48px;
+  width: 327px;
+  margin: 24px;
+  padding: 12px;
+}
+
+.textarea {
+  height: 114px;
+  width: 327px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 12px;
+}
+
+.gmail {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.contact-img {
+  position: relative;
+  float: right;
+  top: -85px;
+  margin: -10px;
+}
+
+.form-btn {
+  margin-left: 8.5rem;
+}
+
+.set-icons {
+  margin-left: 50px;
+}

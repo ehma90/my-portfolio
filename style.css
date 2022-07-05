@@ -64,6 +64,7 @@ nav {
 .handle-icon {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -141,6 +142,11 @@ ul li {
   margin-bottom: 29px;
 }
 
+/* .card-tag li{
+  float: left;
+  background-color: #172b4d;
+} */
+
 .tags {
   font-weight: 600;
   font-size: 12px;
@@ -155,26 +161,31 @@ ul li {
 .card-tag .ruby {
   margin-left: 6px;
   margin-right: 4px;
+  float: left;
 }
 
 .card-tag .css {
   margin-left: 4px;
   margin-right: 4px;
+  float: left;
 }
 
 .card-tag .jav {
   margin-left: 4px;
   margin-right: 4px;
+  float: left;
 }
 
 .card-tag .htm {
   margin-left: 4px;
   margin-right: 6px;
+  float: left;
 }
 
 .btn {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  margin-left: 102px;
 }
 
 .button {
