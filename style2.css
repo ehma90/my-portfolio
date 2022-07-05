@@ -127,7 +127,6 @@
   margin-bottom: 24px;
 }
 
-
 /* Form section */
 
 .get-in-touch {
@@ -179,8 +178,8 @@
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
-  margin-bottom: 20px;
-  margin-left: 1rem;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
 .contact-img {
@@ -193,9 +192,9 @@
 .form-btn {
   display: flex;
   justify-content: center;
-  margin-right: 7.5rem;
+  margin-right: 75px;
 }
 
 .set-icons {
-  margin-left: 0.5rem;
+  margin-left: 50px;
 }
