@@ -8,7 +8,6 @@
   .menu-icon {
     display: none;
   }
-
   .nav-list {
     display: block;
     background: transparent;
@@ -117,7 +116,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-    transform: translateY(2%);
   }
 
   .languages .lang {
