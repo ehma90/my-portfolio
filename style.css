@@ -4,20 +4,18 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 10px;
-
 }
 
 body {
   font-family: 'Inter', sans-serif;
 }
 
-header .navbar{
+header .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .wlc {
@@ -28,7 +26,11 @@ header .navbar{
   text-align: center;
 }
 
-.nav-list, .line, .contact-img1, .contact-img2, .contact-img3{
+.nav-list,
+.line,
+.contact-img1,
+.contact-img2,
+.contact-img3 {
   display: none;
 }
 
@@ -45,6 +47,22 @@ header .navbar{
   background-repeat: no-repeat;
 }
 
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 .hero h1 {
   color: #172b4d;
@@ -70,7 +88,7 @@ header .navbar{
   text-align: center;
   order: 1;
   margin: 28px 24px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .handle-icon {
@@ -94,7 +112,6 @@ ul li {
   justify-content: center;
   margin-top: 64px;
   margin-bottom: 22px;
-  
 }
 
 /* second section */
@@ -155,7 +172,6 @@ ul li {
   margin-bottom: 29px;
 }
 
-
 .tags {
   font-weight: 600;
   font-size: 12px;
@@ -198,7 +214,7 @@ ul li {
 }
 
 .button {
-  background: #36b37f;
+  background-color: #36b37f;
   border-radius: 4px;
   width: 122px;
   height: 48px;
@@ -209,22 +225,20 @@ ul li {
   line-height: 24px;
   border: none;
   margin-bottom: 29px;
+  transition: background-color 500ms, box-shadow 500ms;
 }
 
 .button:hover {
-  background: #36b37f;
+  background-color: #1e488f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  border-radius: 4px;
 }
 
 .button:enabled {
-  background: #36b37f;
-  border-radius: 4px;
+  background-color: #36b37f;
 }
 
 .button:active {
-  background: #008552;
-  border-radius: 4px;
+  background-color: #0a2759;
 }
 
 .about-me {
@@ -270,11 +284,11 @@ ul li {
   top: -70px;
 }
 
-.about-img-desktop{
+.about-img-desktop {
   display: none;
 }
 
-.about-desktop{
+.about-desktop {
   display: none;
 }
 
@@ -283,4 +297,3 @@ ul li {
   justify-content: center;
   width: 100%;
 }
-
