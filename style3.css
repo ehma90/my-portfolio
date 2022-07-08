@@ -67,155 +67,18 @@
         justify-content: center;
     }
 
-    .btn{
-        display: flex;
-        justify-content: center;
-        margin-right: 6rem;
-        padding-right: 4rem;
-    }
+   .btn{
+       all:unset;
+       display: flex;
+       justify-content: center;
+   }
 
-    .about-me h3{
-        margin-top: 16rem;
-    }
+   .about-img, .about-imgs{
+       display: none;
+   }
 
-    .about-img{
-        display: none;
-    }
-
-    .about-imgs{
-        display: none;
-    }
-
-    .about-img-desktop{
-        display: block;
-        position: relative;
-        float: left;
-        margin: -10px;
-        top: -15rem;
-
-    }
-
-    .about-desktop{
-        display: block;
-        position: relative;
-        float: left;
-        bottom: 48rem;
-    }
-
-    .about-text{
-        bottom: 29rem;
-    }
-
-    .about-me .btn-btn{
-        position: relative;
-        top: -28rem;
-    }
-
-    .languages{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        top: -28rem;
-        margin-right: 24rem;
-    }
-
-    .footer{
-        display: grid;
-        grid-template-columns: 45% 45%;
-        margin-bottom: 22.5rem;
-        position: relative;
-        bottom: 5rem;
-    }
-
-    .footer .get-in-touch{
-        position: relative;
-        bottom: 5rem;
-        margin-left: 13.5rem;
-        margin-right: 2.4rem;
-        
-    }
-
-    .last-name{
-        display: block;
-        border: 1px solid #D0D9D4;
-        border-radius: 0.4rem;
-        box-sizing: border-box;
-        background: #FFFFFF;
-        padding: 1.2rem;
-        height: 48px;
-        width: 330px;
-    }
-
-    form ul li{
-        display: flex;
-        justify-content: start;
-    }
-
-    .full-name{
-        width: 684px;
-    }
-
-    .email{
-        width: 684px;
-
-    }
-
-    .textarea{
-        width: 684px;
-    }
-
-    li .form-btn{
-        position: relative;
-        margin-bottom: 12rem;
-        margin-right: 40rem;
-    }
-
-    .bottons{
-        position: relative;
-        margin-right: 20rem;
-    }
-
-    .contact-img, .gmail{
-        display: none;
-    }
-
-    .contact-pack{
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: 50rem;
-    }
-
-    .contact-img1{
-        display: block;
-        margin-right: 20rem;
-    }
-    .contact-img2{
-        display: block;
-        margin-right: 5rem;
-    }
-    .contact-img3{
-        display: block;
-        margin-left: 65rem;
-        position: relative;
-        bottom: 18rem;
-    }
-
-    .line{
-        display: block;
-        height: 0.1rem;
-        width: 144.4rem;
-        background: #DFE1E6;
-        position: relative;
-        top: -55rem;
-    }
-    .set-icons{
-        position: relative;
-        top: -55rem;
-    }
-
-    .bottons{
-        margin-left: 2.5rem;
-    }
-
+   .about-img-desktop{
+       display: inline-block;
+   }
+   
 }
