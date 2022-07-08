@@ -139,7 +139,7 @@
   margin: 59px 24px;
 }
 
-.full-name {
+.full-name{
   box-sizing: border-box;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -149,6 +149,10 @@
   padding: 12px;
   height: 48px;
   width: 327px;
+}
+
+.last-name{
+  display: none;
 }
 
 form ul li {
@@ -198,9 +202,11 @@ form ul li {
 }
 
 .form-btn {
-  margin-left: 8.5rem;
+  margin-left: 13.5rem;
 }
 
 .set-icons {
-  margin-left: 50px;
+  margin-left: 5rem;
 }
+
+

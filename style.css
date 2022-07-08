@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 10px;
+
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
 
-nav {
+header .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .wlc {
@@ -20,6 +26,10 @@ nav {
   line-height: 28px;
   margin: 24px;
   text-align: center;
+}
+
+.nav-list, .line, .contact-img1, .contact-img2, .contact-img3{
+  display: none;
 }
 
 .menu-icon {
@@ -34,6 +44,7 @@ nav {
   background-position: top;
   background-repeat: no-repeat;
 }
+
 
 .hero h1 {
   color: #172b4d;
@@ -59,6 +70,7 @@ nav {
   text-align: center;
   order: 1;
   margin: 28px 24px;
+  color: #172B4D;
 }
 
 .handle-icon {
@@ -82,6 +94,7 @@ ul li {
   justify-content: center;
   margin-top: 64px;
   margin-bottom: 22px;
+  
 }
 
 /* second section */
@@ -142,10 +155,6 @@ ul li {
   margin-bottom: 29px;
 }
 
-/* .card-tag li{
-  float: left;
-  background-color: #172b4d;
-} */
 
 .tags {
   font-weight: 600;
@@ -220,6 +229,7 @@ ul li {
 
 .about-me {
   margin-top: 58px;
+  margin-bottom: 0;
 }
 
 .about-me h3 {
@@ -259,3 +269,18 @@ ul li {
   margin: -10px;
   top: -70px;
 }
+
+.about-img-desktop{
+  display: none;
+}
+
+.about-desktop{
+  display: none;
+}
+
+.title-section {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+

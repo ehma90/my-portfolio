@@ -1,0 +1,217 @@
+@media(min-width: 768px){
+    body{
+        bottom: 0;
+        height: 100vh;
+    }
+
+    .wlc, .menu-icon{
+        display: none;
+    }
+
+    .nav-list{
+        display: block;
+        background: transparent;
+    }
+
+    .nav-list li{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #344563;
+    }
+
+    .nav-desktop{
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .hero{
+        background-image: url(images/Header-llustration-desktop.svg);
+        background-size: cover;
+        padding-top: 10rem;
+        padding-bottom:42rem;
+        
+    }
+
+    header{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2rem;
+    }
+
+    .indicator{
+        display: none;
+    }
+    .recent-work h2 {
+        margin-bottom: 3rem;
+    }
+
+    .main-cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .cards{
+        margin: 16px 12px;
+        padding: 0;
+    }
+    .card-tag{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-right: 6rem;
+        padding-right: 4rem;
+    }
+
+    .about-me h3{
+        margin-top: 16rem;
+    }
+
+    .about-img{
+        display: none;
+    }
+
+    .about-imgs{
+        display: none;
+    }
+
+    .about-img-desktop{
+        display: block;
+        position: relative;
+        float: left;
+        margin: -10px;
+        top: -15rem;
+
+    }
+
+    .about-desktop{
+        display: block;
+        position: relative;
+        float: left;
+        bottom: 48rem;
+    }
+
+    .about-text{
+        bottom: 29rem;
+    }
+
+    .about-me .btn-btn{
+        position: relative;
+        top: -28rem;
+    }
+
+    .languages{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -28rem;
+        margin-right: 24rem;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        margin-bottom: 22.5rem;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .footer .get-in-touch{
+        position: relative;
+        bottom: 5rem;
+        margin-left: 13.5rem;
+        margin-right: 2.4rem;
+        
+    }
+
+    .last-name{
+        display: block;
+        border: 1px solid #D0D9D4;
+        border-radius: 0.4rem;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 1.2rem;
+        height: 48px;
+        width: 330px;
+    }
+
+    form ul li{
+        display: flex;
+        justify-content: start;
+    }
+
+    .full-name{
+        width: 684px;
+    }
+
+    .email{
+        width: 684px;
+
+    }
+
+    .textarea{
+        width: 684px;
+    }
+
+    li .form-btn{
+        position: relative;
+        margin-bottom: 12rem;
+        margin-right: 40rem;
+    }
+
+    .bottons{
+        position: relative;
+        margin-right: 20rem;
+    }
+
+    .contact-img, .gmail{
+        display: none;
+    }
+
+    .contact-pack{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 50rem;
+    }
+
+    .contact-img1{
+        display: block;
+        margin-right: 20rem;
+    }
+    .contact-img2{
+        display: block;
+        margin-right: 5rem;
+    }
+    .contact-img3{
+        display: block;
+        margin-left: 65rem;
+        position: relative;
+        bottom: 18rem;
+    }
+
+    .line{
+        display: block;
+        height: 0.1rem;
+        width: 144.4rem;
+        background: #DFE1E6;
+        position: relative;
+        top: -55rem;
+    }
+    .set-icons{
+        position: relative;
+        top: -55rem;
+    }
+
+}
