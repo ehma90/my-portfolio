@@ -117,6 +117,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    transform: translateY(2%);
   }
 
   .languages .lang {
