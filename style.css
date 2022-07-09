@@ -47,8 +47,6 @@ header .navbar {
   background-repeat: no-repeat;
 }
 
-
-
 .hero h1 {
   color: #172b4d;
   font-style: normal;
@@ -210,7 +208,6 @@ ul li {
   line-height: 24px;
   border: none;
   margin-bottom: 29px;
-  
 }
 
 .button:hover {
