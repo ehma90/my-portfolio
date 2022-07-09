@@ -47,6 +47,23 @@ header .navbar {
   background-repeat: no-repeat;
 }
 
+h1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .hero h1 {
   color: #172b4d;
   font-style: normal;
@@ -208,19 +225,12 @@ ul li {
   line-height: 24px;
   border: none;
   margin-bottom: 29px;
+  transition: background-color 500ms, box-shadow 500ms;
 }
 
 .button:hover {
   background-color: #1e488f;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-.button:enabled {
-  background-color: #36b37f;
-}
-
-.button:active {
-  background-color: #0a2759;
+  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
 }
 
 .about-me {
