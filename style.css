@@ -47,23 +47,6 @@ header .navbar {
   background-repeat: no-repeat;
 }
 
-h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
 .hero h1 {
   color: #172b4d;
   font-style: normal;
@@ -225,7 +208,6 @@ ul li {
   line-height: 24px;
   border: none;
   margin-bottom: 29px;
-  transition: background-color 500ms, box-shadow 500ms;
 }
 
 .button:hover {
