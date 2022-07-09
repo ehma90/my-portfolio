@@ -23,7 +23,12 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
     color: #344563;
+    cursor: pointer;
   }
 
   .nav-desktop {
