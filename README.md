@@ -24,9 +24,9 @@
 
 Feel free to check the [issues page](https://github.com/ehma90/linter-tutorials/issues).
 
-## Github Page 
+## Github Page
 
-https://ehma90.github.io/my-portfolio/
+Here is a link to my github page https://ehma90.github.io/my-portfolio/
 
 ## Show your support
 
