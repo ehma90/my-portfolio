@@ -225,6 +225,7 @@ ul li {
   line-height: 24px;
   border: none;
   margin-bottom: 29px;
+  cursor: pointer;
   transition: background-color 500ms, box-shadow 500ms;
 }
 
