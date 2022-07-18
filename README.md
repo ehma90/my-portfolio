@@ -6,6 +6,7 @@
 
 - Html
 - Css
+- Javascript
 
 ## Author
 
@@ -14,12 +15,12 @@
 - GitHub: [@githubhandle](https://github.com/ehma90)
 - Twitter: [@twitterhandle](https://twitter.com/ehma_essien)
 
+
 ## 🤝 Contributor
 
-👤 **Alusine Jalloh**
+👤 **Yusubaliev Bakhtiyor**
 
-- GitHub: [@Alusp](https://github.com/Alusp)
-- LinkedIn: [@alusine-jalloh-873951209](linkedin.com/in/alusine-jalloh-873951209)
+- GitHub: [@Alusp](https://github.com/username-forGithub)
 
 
 Feel free to check the [issues page](https://github.com/ehma90/linter-tutorials/issues).
