@@ -5,10 +5,10 @@
   }
 
   .wlc,
-  .menu-icon, 
+  .menu-icon,
   .timesIcon,
   .mobile-backgound,
-  .nav-desktop span{
+  .nav-desktop span {
     display: none;
   }
 
@@ -16,7 +16,6 @@
     display: block;
     background: transparent;
   }
-
 
   .nav-list li {
     display: flex;

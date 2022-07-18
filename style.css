@@ -26,7 +26,6 @@ header .navbar {
   text-align: center;
 }
 
-
 .line,
 .contact-img1,
 .contact-img2,
@@ -313,6 +312,7 @@ ul li {
     transition: 0.5s;
     background-color: rgba(180, 174, 182, 0.9);
   }
+
   nav ul {
     position: fixed;
     z-index: 10;
@@ -327,6 +327,7 @@ ul li {
     background-color: #fff;
     border-radius: 0 0 25px 25px;
   }
+
   .active nav ul {
     left: 0;
     transition: 0.5s;
@@ -370,5 +371,4 @@ ul li {
     font-weight: 600;
     text-decoration: none;
   }
-
 }
