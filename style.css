@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 header .navbar {
@@ -118,6 +119,7 @@ ul li {
 .recent-work header {
   display: grid;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .recent-work h2 {
@@ -146,6 +148,7 @@ ul li {
   margin-left: 26px;
   margin-right: 22px;
   margin-top: 62px;
+  overflow-x: hidden;
 }
 
 .card-details {
@@ -169,6 +172,7 @@ ul li {
   flex-direction: row;
   margin-top: 16px;
   margin-bottom: 29px;
+  overflow-x: hidden;
 }
 
 .tags {
