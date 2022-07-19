@@ -302,6 +302,7 @@ ul li {
     height: 100%;
     width: 100%;
     top: 0;
+    overflow: hidden;
     left: calc(-100% - 50px);
     left: -100%;
     transition: 0.5s;
@@ -315,6 +316,7 @@ ul li {
 
   nav ul {
     position: fixed;
+    overflow: hidden;
     z-index: 10;
     height: calc(100vh - 60px);
     width: 100%;
