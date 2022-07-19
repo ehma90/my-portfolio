@@ -16,13 +16,3 @@ getli.forEach((li) => {
     getheader.classList.remove('active');
   });
 });
-
-const data = [
-  {
-    id: 1,
-    image:'',
-    title:'',
-    tags: 'Javascript, PHP, HTML'
-
-  }
-]
