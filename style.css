@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  outline: none;
 }
 
 html {
@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
 }
 
 header .navbar {
@@ -117,11 +116,6 @@ ul li {
 
 /* second section */
 
-.recent-work header {
-  display: grid;
-  justify-content: center;
-}
-
 .recent-work h2 {
   font-style: normal;
   font-weight: 700;
@@ -148,7 +142,6 @@ ul li {
   margin-left: 26px;
   margin-right: 22px;
   margin-top: 62px;
-  overflow-x: hidden;
 }
 
 .card-details {
@@ -226,7 +219,6 @@ ul li {
   font-size: 17px;
   line-height: 24px;
   border: none;
-  overflow-x: hidden;
   margin-bottom: 29px;
   cursor: pointer;
   transition: background-color 500ms, box-shadow 500ms;
@@ -240,7 +232,6 @@ ul li {
 .about-me {
   margin-top: 58px;
   margin-bottom: 0;
-  overflow: hidden;
 }
 
 .about-me h3 {
@@ -296,7 +287,8 @@ ul li {
 }
 
 @media (min-width: 768px) {
-  nav ul .aa {
+  nav ul .aa,
+  nav ul {
     display: none;
   }
 }
@@ -307,7 +299,6 @@ ul li {
     height: 100%;
     width: 100%;
     top: 0;
-    overflow: hidden;
     left: calc(-100% - 50px);
     left: -100%;
     transition: 0.5s;
@@ -321,7 +312,6 @@ ul li {
 
   nav ul {
     position: fixed;
-    overflow: hidden;
     z-index: 10;
     height: calc(100vh - 60px);
     width: 100%;
