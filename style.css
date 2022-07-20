@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html {
@@ -119,7 +120,6 @@ ul li {
 .recent-work header {
   display: grid;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 .recent-work h2 {
@@ -172,7 +172,7 @@ ul li {
   flex-direction: row;
   margin-top: 16px;
   margin-bottom: 29px;
-  overflow-x: hidden;
+  
 }
 
 .tags {
@@ -227,6 +227,7 @@ ul li {
   font-size: 17px;
   line-height: 24px;
   border: none;
+  overflow-x: hidden;
   margin-bottom: 29px;
   cursor: pointer;
   transition: background-color 500ms, box-shadow 500ms;
@@ -240,6 +241,7 @@ ul li {
 .about-me {
   margin-top: 58px;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .about-me h3 {
@@ -259,6 +261,7 @@ ul li {
   color: #42526e;
   text-align: center;
   margin: 24px 12px;
+  
 }
 
 .btns {
@@ -315,7 +318,7 @@ ul li {
   .active .mob-background {
     left: 0;
     transition: 0.5s;
-    background-color: rgba(180, 174, 182, 0.9);
+    background-color: rgba(180, 174, 182, 1);
   }
 
   nav ul {
