@@ -8,24 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
+    
 </head>
 <body>
     <header>
+        <div class="mob-background"></div>
         <nav class="navbar">
             <div class="wlc">Welcome</div>
             <div class="menu-icon"> <img src="images/Icon-Menu.svg" alt="menu-icon"></div>
             
             <ul class="nav-list nav-desktop">
-                <li><a href="">Porfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li class="linkclass"><a href="#portfolio">Porfolio</a></li>
+                <li class="linkclass"><a href="#about">About</a></li>
+                <li class="linkclass"><a href="#contact">Contact</a></li>
+                <li class="aa closeclass">&times;</li>
             </ul>
         </nav>
 
     </header>
     
 
-    <section class="hero heros">
+    <section id="hero" class="hero heros">
        
         <div>
             <h1>Hey there. I'm Emmanuel <br>
@@ -55,7 +58,7 @@
     </section>
 
    
-    <section class="recent-work">
+    <section id="portfolio" class="recent-work">
            
                 <h2>My Recent  Works</h2>
     
@@ -81,7 +84,7 @@
                         <div class="btn">
                             <button class="button" type="button">See Project</button>
                         </div>
-                        
+                        <!-- <div class="pop"></div> -->
                     </div>
                 </div>
                 <div class="cards">
@@ -188,7 +191,7 @@
         <img class="about-desktop" src="images/about-me-2-desktop.svg" alt="img-desktop">
     </div>
     
-    <section class="about-me">
+    <section id="about" class="about-me">
         <img class="about-img" src="images/Mask-Group.svg" alt="Mask-Group">
         
         <h3>About me</h3> 
@@ -208,7 +211,7 @@
         <img src="images/Frame.svg" alt="frame" class="about-imgs">
       
     </section>
-    <section class="languages">
+     <section class="languages">
             <div class="lang">
                 <img class="lang-icon" src="images/Icons.svg" alt="Icons">
     
@@ -253,57 +256,59 @@
 
 
     <!-- Form section -->
-
-    <div class="contact-pack pack">
-        <img src="images/illustration-1-contact-form-desktop.svg" class="contact-img1" alt="contact-form-img">
-        <img src="images/illustration-2-contact-form-desktop.svg" class="contact-img2" alt="contact-form-img">
-        <img src="images/contact-form-illustratoin-3-desktop.svg" class="contact-img3" alt="contact-form-img">
-    </div>
-
-    <footer>
-        <div class="footer">
-            <p class="get-in-touch">
-                I'm always interested in hearing about new projects, 
-                so if you'd like to chat please get in touch.
-            </p>
-    
-            <form action="https://formspree.io/f/mpzbgqgr" method="POST">
-                <ul>
-                    <li>
-                        <input type="text" id="f-name" name="text" maxlength="30" placeholder="Full Name" class="full-name" required>
-                        <label for="f-name"></label>
-                    </li>
-                    <li>
-                        <input type="email" id="email" name="email" placeholder="Email address" class="email" required>
-                        <label for="email"></label>
-                    </li>
-                    <li>
-                        <textarea name="comment" maxlength="500" placeholder="Enter text here" class="textarea" required></textarea>
-                    </li>
-                    <li>
-                        <button class="button btns form-btn " type="submit">Get in touch</button>
-                    </li>
-                </ul>
-
-            </form>
+    <section id="contact">
+        <div class="contact-pack pack">
+            <img src="images/illustration-1-contact-form-desktop.svg" class="contact-img1" alt="contact-form-img">
+            <img src="images/illustration-2-contact-form-desktop.svg" class="contact-img2" alt="contact-form-img">
+            <img src="images/contact-form-illustratoin-3-desktop.svg" class="contact-img3" alt="contact-form-img">
         </div>
-       
+    
+        <footer>
+            <div class="footer">
+                <p class="get-in-touch">
+                    I'm always interested in hearing about new projects, 
+                    so if you'd like to chat please get in touch.
+                </p>
         
-        <img src="images/contact-form-comp.svg" class="contact-img" alt="contact-form-img">
-
-        <div class="line"></div>
-
-        <ul class="handle-icon set-icons">
-            <li><a href=""><img class="svg" src="images/github.svg" alt="Github logo"></a></li>
-            <li><a href=""><img class="svg" src="images/Linkedin-icon.svg" alt="LinkedIn logo"></a></li>
-            <li><a href=""><img class="svg" src="images/angellist.svg" alt="angellist logo"></a></li>
-            <li><a href=""><img class="svg" src="images/twitter.svg" alt="twitter logo"></a></li>
-            <li><a href=""><img class="svg" src="images/medium.svg" alt="Medium logo"></a></li>
+                <form action="https://formspree.io/f/mpzbgqgr" method="POST">
+                    <ul>
+                        <li>
+                            <input type="text" id="f-name" name="text" maxlength="30" placeholder="Full Name" class="full-name" required>
+                            <label for="f-name"></label>
+                        </li>
+                        <li>
+                            <input type="email" id="email" name="email" placeholder="Email address" class="email" required>
+                            <label for="email"></label>
+                        </li>
+                        <li>
+                            <textarea name="comment" maxlength="500" placeholder="Enter text here" class="textarea" required></textarea>
+                        </li>
+                        <li>
+                            <button class="button btns form-btn " type="submit">Get in touch</button>
+                        </li>
+                    </ul>
+    
+                </form>
+            </div>
+           
             
-        </ul>
+            <img src="images/contact-form-comp.svg" class="contact-img" alt="contact-form-img">
+    
+            <div class="line"></div>
+    
+            <ul class="handle-icon set-icons">
+                <li><a href=""><img class="svg" src="images/github.svg" alt="Github logo"></a></li>
+                <li><a href=""><img class="svg" src="images/Linkedin-icon.svg" alt="LinkedIn logo"></a></li>
+                <li><a href=""><img class="svg" src="images/angellist.svg" alt="angellist logo"></a></li>
+                <li><a href=""><img class="svg" src="images/twitter.svg" alt="twitter logo"></a></li>
+                <li><a href=""><img class="svg" src="images/medium.svg" alt="Medium logo"></a></li>
+                
+            </ul>
+    
+            <p class="gmail">ehmaessien@gmail.com</p>
+        </footer>
+    </section>
 
-        <p class="gmail">ehmaessien@gmail.com</p>
-    </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>

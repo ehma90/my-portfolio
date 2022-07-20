@@ -2,10 +2,14 @@
   body {
     bottom: 0;
     height: 100vh;
+    overflow-x: hidden;
   }
 
   .wlc,
-  .menu-icon {
+  .menu-icon,
+  .timesIcon,
+  .mobile-backgound,
+  .nav-desktop span {
     display: none;
   }
 
