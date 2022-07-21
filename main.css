@@ -1036,3 +1036,9 @@ footer .line {
     font-size: 28px;
   }
 }
+
+.formerror {
+  display: none;
+  color: #9d0c0c;
+  font-size: 14px;
+}
