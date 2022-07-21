@@ -140,3 +140,14 @@ getpopupclose.addEventListener('click', () => {
     getpopupclose.nextElementSibling.remove();
   }
 });
+
+// form validation
+
+const getformbtn = document.querySelector('.form form');
+const geterror = document.querySelector('.formerror');
+getformbtn.addEventListener('submit', (e) => {
+  if (getformbtn.useremail.value !== getformbtn.useremail.value.toLowerCase()) {
+    geterror.style.display = 'block';
+    e.preventDefault();
+  }
+});
